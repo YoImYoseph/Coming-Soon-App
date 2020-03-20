@@ -1,4 +1,4 @@
-var countDownDate = new Date("Mar 30, 2020 00:00:00").getTime();
+var countDownDate = new Date("Dec 11, 2021 00:00:00").getTime();
 
 var counDownFunction = setInterval(function() {
 
@@ -15,6 +15,6 @@ document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes
 
 if(distance < 0) {
     clearInterval(counDownFunction);
-    document.getElementById("demo").innerHTML = "YAY! HAPPY BIRTHDAY!";
+    document.getElementById("demo").innerHTML = "YAY! HAPPY BIRTHDAY FOR MYSELF!!";
 }
 },1000);
